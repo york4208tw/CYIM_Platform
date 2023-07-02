@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>預約申請單</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="scss/all.css">
+</head>
+<body>
+    <div class="booking container">
+        <div class="row">
+            <div class="col mt-2">
+                <div class="title-hug-xl"></div>
+                <div class="content mt-6">
+                    <div class="data-block">
+                        <div class="title-bar">
+                            <div class="title">
+                                <span class="material-icons-outlined">person</span>
+                                <div class="title-txt">申請人</div>
+                            </div>
+                            <a class="remark-link" href="#">資料有誤?</a>
+                        </div>
+                        <ul class="data-list">
+                            <li class="data-view">
+                                <div class="title">職員編號</div>
+                                <div class="text">10814622</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                            <li class="data-view">
+                                <div class="title">姓名</div>
+                                <div class="text">林點點</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-block">
+                        <div class="title-bar">
+                            <div class="title">
+                                <span class="material-symbols-outlined">clarify</span>
+                                <div class="title-txt">預約資訊</div>
+                            </div>
+                            <a class="remark-link" href="#">較室預約情況</a>
+                        </div>
+                        <ul class="data-list">
+                            <li class="data-view">
+                                <div class="view-first">
+                                    <div class="title-hug">教室</div>
+                                    <div class="text text-truncate">#M508、#M509</div>
+                                </div>
+                                <label class="view-last checkboxs">
+                                    <input type="checkbox" id="noClass">
+                                    <span>不借教室</span>
+                                </label>
+                            </li>
+                            <li class="data-choose">
+                                <div class="name-block">選擇教室標籤<span>*</span></div>
+                                <div class="choose-block">
+                                    <div class="title">推薦</div>
+                                    <ul>
+                                        <li class="choose-list">
+                                            <label>
+                                                <input type="checkbox">
+                                                <span># M508</span>
+                                            </label>
+                                        </li>
+                                        <li class="choose-list">
+                                            <label>
+                                                <input type="checkbox">
+                                                <span># M509.1</span>
+                                            </label>
+                                        </li>                                        
+                                        <li class="choose-list">
+                                            <label>
+                                                <input type="checkbox">
+                                                <span># M512.2</span>
+                                            </label>
+                                        </li>                                        
+                                        <li class="choose-list">
+                                            <label>
+                                                <input type="checkbox">
+                                                <span># M213</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="choose-block">
+                                    <div class="title">所有</div>
+                                    <ul>
+                                        <li class="choose-list-pic">
+                                            <label>
+                                                <input type="checkbox">
+                                                <img src="pic/room/M-213.jpg" alt="">
+                                                <span data-storke="#M508" class="room-name">#M508</span>
+                                                <p class="remark">已選取</p>
+                                            </label>
+                                        </li>
+                                        <li class="choose-list-pic">
+                                            <label>
+                                                <input type="checkbox">
+                                                <img src="pic/room/M-213.jpg" alt="">
+                                                <span data-storke="#M508" class="room-name">#M508</span>
+                                                <p class="remark">已選取</p>
+                                            </label>
+                                        </li>
+                                        <li class="choose-list-pic">
+                                            <label>
+                                                <input type="checkbox">
+                                                <img src="pic/room/M-213.jpg" alt="">
+                                                <span data-storke="#M508" class="room-name">#M508</span>
+                                                <p class="remark">已選取</p>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="data-view">
+                                <div class="view-first">
+                                    <div class="title-hug">教室</div>
+                                    <div class="text">#M508、#M509</div>
+                                </div>                                
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container vh-100">
+        <div class="row">
+            <div class="col mt-2">
+                <div class="title-hug-xl"></div>
+                <div class="content mt-6">
+                    <div class="data-Block">
+                        <div class="list-Title">
+                            <div class="title-Icon">
+                                <span class="material-icons-outlined">person</span>
+                                申請人
+                            </div>
+                            <a href="#">資料有誤?</a>
+                        </div>
+                        <ul class="list-unstyled list-content">
+                            <li>
+                                <div class="title">職員編號</div>
+                                <div class="text">10814622</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                            <li>
+                                <div class="title">姓名</div>
+                                <div class="text">林點點</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-Block">
+                        <div class="list-Title">
+                            <div class="title-Icon">
+                                <span class="material-symbols-outlined">clarify</span>
+                                預約資訊
+                            </div>
+                            <a href="#">較室預約情況</a>
+                        </div>
+                        <ul class="list-unstyled list-content">
+                            <li>
+                                <div class="title-Input">教室</div>
+                                <div class="text-Input">#M508、#M509.1</div>
+                                <div class="input-bar">
+                                    <input type="checkbox" id="noClass">
+                                    <label for="noClass">不借教室</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">姓名</div>
+                                <div class="text">林點點</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-Block">
+                        <div class="list-Title">
+                            <div class="title-Icon">
+                                <span class="material-symbols-outlined">clarify</span>
+                                預約資訊
+                            </div>
+                            <a href="#">較室預約情況</a>
+                        </div>
+                        <ul class="list-unstyled list-content">
+                            <li>
+                                <div class="title-Input">教室</div>
+                                <div class="text-Input">#M508、#M509.1</div>
+                                <div class="input-bar">
+                                    <input type="checkbox" id="noClass">
+                                    <label for="noClass">不借教室</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">姓名</div>
+                                <div class="text">林點點</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-Block">
+                        <div class="list-Title">
+                            <div class="title-Icon">
+                                <span class="material-symbols-outlined">clarify</span>
+                                預約資訊
+                            </div>
+                            <a href="#">較室預約情況</a>
+                        </div>
+                        <ul class="list-unstyled list-content">
+                            <li>
+                                <div class="title-Input">教室</div>
+                                <div class="text-Input">#M508、#M509.1</div>
+                                <div class="input-bar">
+                                    <input type="checkbox" id="noClass">
+                                    <label for="noClass">不借教室</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">姓名</div>
+                                <div class="text">林點點</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-Block">
+                        <div class="list-Title">
+                            <div class="title-Icon">
+                                <span class="material-symbols-outlined">clarify</span>
+                                預約資訊
+                            </div>
+                            <a href="#">較室預約情況</a>
+                        </div>
+                        <ul class="list-unstyled list-content">
+                            <li>
+                                <div class="title-Input">教室</div>
+                                <div class="text-Input">#M508、#M509.1</div>
+                                <div class="input-bar">
+                                    <input type="checkbox" id="noClass">
+                                    <label for="noClass">不借教室</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">姓名</div>
+                                <div class="text">林點點</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-Block">
+                        <div class="list-Title">
+                            <div class="title-Icon">
+                                <span class="material-symbols-outlined">clarify</span>
+                                預約資訊
+                            </div>
+                            <a href="#">較室預約情況</a>
+                        </div>
+                        <ul class="list-unstyled list-content">
+                            <li>
+                                <div class="title-Input">教室</div>
+                                <div class="text-Input">#M508、#M509.1</div>
+                                <div class="input-bar">
+                                    <input type="checkbox" id="noClass">
+                                    <label for="noClass">不借教室</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">姓名</div>
+                                <div class="text">林點點</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-Block">
+                        <div class="list-Title">
+                            <div class="title-Icon">
+                                <span class="material-symbols-outlined">clarify</span>
+                                預約資訊
+                            </div>
+                            <a href="#">較室預約情況</a>
+                        </div>
+                        <ul class="list-unstyled list-content">
+                            <li>
+                                <div class="title-Input">教室</div>
+                                <div class="text-Input">#M508、#M509.1</div>
+                                <div class="input-bar">
+                                    <input type="checkbox" id="noClass">
+                                    <label for="noClass">不借教室</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">姓名</div>
+                                <div class="text">林點點</div>
+                                <div class="remark">(自動帶入)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+</body>
+</html>
